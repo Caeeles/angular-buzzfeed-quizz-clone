@@ -1,55 +1,102 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual seria a sua visão elemental em Genshin Impact ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Em qual local você preferiria morar ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Vale Termal.", "alias":"A"},
+        {"id": 2, "name":"Porto Ormos.", "alias":"D"},
+        {"id": 3, "name":"Vila Poisson.", "alias":"H"},
+        {"id": 4, "name":"Vila Konda.", "alias":"E"},
+        {"id": 5, "name":"Albergue Wangshu.", "alias":"G"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Por qual razão você brigaria  ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Para se vingar de um amor perdido.", "alias":"C"},
+        {"id": 2, "name":"Para aprimorar suas habilidades.", "alias":"P"},
+        {"id": 3, "name":"Por justiça.", "alias":"H"},
+        {"id": 4, "name":"Por ser um mercenário.", "alias":"G"},
+        {"id": 5, "name":"Para conquistar sua liberdade.", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Com qual característica seus amigos te descreveriam?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Sabedoria.", "alias":"D"},
+        {"id": 2, "name":"Responsabilidade.", "alias":"E"},
+        {"id": 3, "name":"Paixão.", "alias":"P"},
+        {"id": 4, "name":"Imparcialidade.", "alias":"H"},
+        {"id": 5, "name":"Originalidade.", "alias":"C"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual Hobbie você gostaria de praticar  ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Organização de eventos.", "alias":"G"},
+        {"id": 2, "name":"Baloagem.", "alias":"A"},
+        {"id": 3, "name":"Pesca em alto mar.", "alias":"E"},
+        {"id": 4, "name":"Rinha de cogumelos.", "alias":"D"},
+        {"id": 5, "name":"Confecção de fogos-de-artificio.", "alias":"P"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Em qual lugar seria seu primeiro date  ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Ópera Epiclese.", "alias":"H"},
+        {"id": 2, "name":"Grande Santuário Narukami.", "alias":"E"},
+        {"id": 3, "name":"Mausoléu do Rei Deshret.", "alias":"P"},
+        {"id": 4, "name":"Caverna do Brilho Estrelar.", "alias":"C"},
+        {"id": 5, "name":"Cãmara de Jade.", "alias":"G"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Para quem você pediria um emprego  ?",
+      "options":[
+        {"id": 1, "name":"Hu Tao.", "alias":"P"},
+        {"id": 2, "name":"Neuvillette.", "alias":"H"},
+        {"id": 3, "name":"Ningguang.", "alias":"G"},
+        {"id": 4, "name":"Jean.", "alias":"A"},
+        {"id": 5, "name":"Baizhu.", "alias":"D"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual será sua primeira missão do dia na Quilda dos Aventureiros  ?",
+      "options":[
+        {"id": 1, "name":"Escoltar uma carga até o meio do nada.", "alias":"C"},
+        {"id": 2, "name":"Destruir as torres de madeira Hilichurl.", "alias":"P"},
+        {"id": 3, "name":"Entregar flores doces para um idoso diabético.", "alias":"D"},
+        {"id": 4, "name":"Assassinar um bando de monstros desavisados.", "alias":"A"},
+        {"id": 5, "name":"Cobrar o aluguel vencido da Mona.", "alias":"H"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Qual reação elemetal mais te agrada  ?",
+      "options":[
+        {"id": 1, "name":"Congelamento.", "alias":"C"},
+        {"id": 2, "name":"Redemoinho.", "alias":"A"},
+        {"id": 3, "name":"Cristalização.", "alias":"G"},
+        {"id": 4, "name":"Florescimento.", "alias":"D"},
+        {"id": 5, "name":"Eletricamente carregado.", "alias":"E"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Anemo.",
+    "C": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Cryo.",
+    "P": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Pyro.",
+    "H": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Hydro.",
+    "G": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Geo.",
+    "E": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Eletro.",
+    "D": "Ad Astra Abyssosque! Os Princípios Celestiais Decidiram! Você tem uma visão Dendro."
   }
 }
